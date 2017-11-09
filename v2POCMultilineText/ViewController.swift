@@ -25,8 +25,8 @@ class ViewController: UIViewController {
         
         self.textViewMultiline.textContainer.maximumNumberOfLines = 0
         self.textViewMultiline.dataDetectorTypes = .link
-        self.textViewMultiline.textContainer.lineBreakMode = .byTruncatingTail
-        self.textViewMultiline.textContainer.heightTracksTextView = true
+      //  self.textViewMultiline.textContainer.lineBreakMode = .byTruncatingTail
+     //   self.textViewMultiline.textContainer.heightTracksTextView = true
         
         // Label intialization
         
@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     }
     
     func setMultiLineTextWithNewLinesAndLink(){
-        self.textViewMultiline.text = "jdjdjsjskkskdkdkd\ndmdkdk\nhttp://g@b.com"
+        self.textViewMultiline.text = "jdjdjsjskkskdk\ndmdkdk\nhttp://g@b.com"
         
         self.labelMultiline.text = "jdjdjsjskkskdkdkd\n\ndmdkdk\nhttp://g@b.com"
     }
